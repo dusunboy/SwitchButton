@@ -72,6 +72,7 @@ public class SwitchButton extends CompoundButton {
     private void init(AttributeSet attrs){
         setGravity(Gravity.CENTER_VERTICAL);
         paint = new Paint();
+        paint = new Paint();
         paint.setColor(Color.RED);
         porterDuffXfermode = new PorterDuffXfermode(PorterDuff.Mode.SRC_IN);
         switchScroller = new SwitchScroller(getContext(), new AccelerateDecelerateInterpolator());
